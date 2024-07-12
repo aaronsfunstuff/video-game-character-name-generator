@@ -1,5 +1,17 @@
-const firstNames = ["Aragorn", "Bilbo", "Cersei", "Daenerys", "Eowyn", "Frodo", "Gandalf", "Hobbiton", "Imrahil", "Jon"];
-const lastNames = ["Baggins", "Lannister", "Stark", "Targaryen", "Undomiel", "Grey", "White", "Black", "Stone", "Wood"];
+const firstNames = [
+    "Aragorn", "Bilbo", "Cersei", "Daenerys", "Eowyn", "Frodo", "Gandalf", 
+    "Hobbiton", "Imrahil", "Jon", "Khal", "Legolas", "Merlin", "Ned", "Oberyn",
+    "Pippin", "Quorin", "Radagast", "Samwise", "Thorin", "Ulmo", "Varys", "Walda", 
+    "Xaro", "Ygritte", "Zane", "Arwen", "Boromir", "Celeborn", "Dain"
+];
+
+const lastNames = [
+    "Baggins", "Lannister", "Stark", "Targaryen", "Undomiel", "Grey", "White", 
+    "Black", "Stone", "Wood", "Ironfoot", "Stormborn", "Of Mirkwood", "Of Rivendell",
+    "Son of Gloin", "The Brave", "The Wise", "Of Gondor", "Of Rohan", "Of Narnia", 
+    "Of Essos", "Of Westeros", "Of Mordor", "Of Valyria", "Of Winterfell", 
+    "Of King's Landing", "Of Dragonstone", "Of Riverrun", "Of Harrenhal", "Of Highgarden"
+];
 
 document.getElementById("generateBtn").addEventListener("click", generateName);
 
@@ -32,3 +44,4 @@ function playSound(soundId) {
 }
 
 document.getElementById("generateBtn").addEventListener("mousedown", () => playSound('clickSound'));
+
